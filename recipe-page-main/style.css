@@ -1,0 +1,129 @@
+:root{
+  --White: #ffffff;
+
+--Stone-100: #f3e6d8;
+--Stone-150: #e4ded8;
+--Stone-600: #5f574e;
+--Stone-900: #302d2c;
+
+--Brown-800: #854632;
+
+--Rose-800: #7b284f;
+--Rose-50: #fff5fa;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Outfit", serif;;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background-color: var(--Stone-100);
+  color: var(--Stone-600);
+  font-size: 15px;
+}
+.recipe-container{
+  background-color: var(--White);
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;       
+  max-width: 700px; 
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+img{
+ width: 95%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 10px;
+}
+.content{
+  padding: 10px;
+}
+h1,h2{
+ font-family: "Young Serif", serif;
+ margin: 20px 0px;
+}
+h1{
+  color: var(--Stone-900);
+  font-weight: 800;
+}
+h2{
+  color: var(--Brown-800);
+  font-weight: 500;
+}
+.prepare-info{
+  background-color: var(--Rose-50);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.prepare-info  p{
+  color: var(--Rose-800);
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+} 
+ul{
+  margin: 20px;
+}
+ul li{
+  margin: 10px;
+  padding-left: 10px;
+}
+.prepare-info ul li span{
+  margin-left: 10px;
+  color: var(--Stone-600);
+  font-weight: 600;
+}
+ol {
+  margin: 20px;
+  color: var(--Brown-800); 
+  font-weight: 600; 
+}
+
+ol li {
+  margin: 10px 0; 
+  padding-left: 10px; 
+  color: var(--Stone-600); 
+  font-weight: 400; 
+  text-align: left;
+}
+
+ol li span {
+  margin-left: 5px; 
+  font-weight: 600; 
+}
+table{
+  margin: 20px;
+}
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+table tr {
+  border-bottom: 1px solid var(--Stone-150);
+}
+table td {
+  padding: 10px;
+  font-size: 1rem;
+  
+}
+table td:first-child {
+  font-weight: 400;
+  
+}
+table td:last-child {
+  text-align: center;
+  color: var(--Brown-800);
+  font-weight: 700;
+}
